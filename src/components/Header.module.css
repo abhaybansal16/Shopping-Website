@@ -1,0 +1,43 @@
+/* Header.module.css */
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #71767f; /* light gray */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .nav {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #1f2937; /* gray-800 */
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .link:hover {
+    color: #3b82f6; /* blue-500 */
+  }
+  
+  .button {
+    padding: 0.4rem 0.8rem;
+    background-color: #ef4444; /* red-500 */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #dc2626; /* red-600 */
+  }
+  
